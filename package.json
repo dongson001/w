@@ -1,0 +1,27 @@
+{
+  "name": "w2",
+  "version": "1.0.0",
+  "description": "shishi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+  },
+  "author": "dongson",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.24.1",
+    "react": "^15.4.0",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
