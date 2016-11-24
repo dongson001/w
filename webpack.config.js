@@ -12,9 +12,14 @@ module.exports = {
     },
     module: {
         loaders: [
-            {
-                test: /\.(js|jsx)$/, // 用正则来匹配文件路径，这段意思是匹配 js 或者 jsx
-                loader: 'babel' // 加载模块 "babel" 是 "babel-loader" 的缩写
+            { 
+                test: /\.jsx?$/,         // Match both .js and .jsx files
+                exclude: /node_modules/, 
+                loader: "babel", 
+                query:
+                {
+                    presets:['es2015','react']
+                }
             }
         ]
     },
