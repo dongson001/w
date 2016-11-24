@@ -8,7 +8,7 @@ module.exports = {
         'webpack-dev-server/client?http://localhost:8080',
         path.resolve(__dirname, 'app/index.js')],
     output: {
-        path: path.join(__dirname, '/build/'),
+        path: path.join(__dirname, '/dist/'),
 		filename: 'bundle.[hash:4].js',
 		chunkFilename: 'chunk.[id].[hash:4].js',
 		publicPath: '/'
