@@ -5,7 +5,7 @@ class HelloWold extends Component{
 
 	render(){
 		return(
-			<div>
+			<div className='conent'>
 				HelloWold
 			</div>
 		)

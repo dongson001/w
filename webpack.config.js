@@ -25,7 +25,7 @@ module.exports = {
                 }
             },
             //.less文件解析
-            { test: /\.less$/, loader: ExtractTextPlugin.extract("style-loader","less-loader")}
+            { test: /\.less$/, loader: ExtractTextPlugin.extract("style-loader","css-loader")}
         ]
     },
     plugins: [
